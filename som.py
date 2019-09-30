@@ -87,3 +87,6 @@ plt.plot(range(max_iter_tot),c_W)
 plt.xlabel("Number of iterations")
 plt.ylabel("Change in the weights")
 plt.show()
+
+#The Center vectors are 
+C=W.reshape([20,33])
